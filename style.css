@@ -1,0 +1,134 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  padding: aut0;
+  margin: auto;
+}
+ul{
+    list-style: none;
+    display: flex;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-right: 0 auto;
+    margin-left: 40px;
+    font-size: 2em;
+}
+
+
+
+.navigation{
+  display: flex; 
+  justify-content: flex-end; 
+  text-align: right;
+}
+.container1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+a{
+  padding: 30px; 
+  color: black;
+  text-decoration: none; 
+}
+.hero {
+  display: flex;
+  background-image: url("./images/hero-section-bg.png");
+  height: 70vh;
+  background-repeat: no-repeat;
+  justify-content: flex-end;
+  background-size:cover;
+  text-align:justify;
+  font-size: xx-large;
+} 
+.text{position:absolute;
+left:60%;
+top:30%;
+width: 1opx;
+}
+.btn1prop{
+  padding: 1em 5em;
+background-color: #496BF1;
+border:none;
+border-radius:5px;
+color: white;
+}
+.btn2prop{
+  padding: 1em 5em;
+  background-color:#2DD6C1;
+  border: none;
+  border-radius: 10px;
+  color: white;
+
+}
+
+.content{
+justify-content:center;
+align-items: center;
+text-align: center;
+box-shadow: -1px 0px 10px black;
+}
+
+
+.container{
+  display: flex;
+  width: 1200px;
+  height: 300px;
+  margin: auto;
+  align-items:center;
+  gap:16px
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+}
+
+.about-content{
+  margin-left: 3em;
+  font-size: 1.5rem;
+  width: 40%;
+  line-height: 1.4rem;
+}
+.btnr{
+  padding: 1em 5em;
+  background-color: #496BF1;
+  border: none;
+  border-radius: 5em:
+  :white;
+}
+
+
+.you{
+  background-image: url(images/contact-section-bg.png);
+  height: 100vh;
+  width: 80%;
+  background-size: cover;
+  padding: 50px;
+  max-width: 80%;
+}
+.btnm{
+  padding: 1em 5em;
+  background-color: #496BF1;
+  border: none;
+  border-radius: 5em;
+  color: white;
+}
+.footer{
+  display:flex;
+  justify-content:space-between
+
+}
+ol{
+  list-style: none;
+}
+
+
